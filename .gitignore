@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+/.idea/golang-async-logging-library.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/.gitignore
