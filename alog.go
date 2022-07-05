@@ -49,10 +49,8 @@ func (al Alog) formatMessage(msg string) string {
 }
 
 func (al Alog) write(msg string, wg *sync.WaitGroup) {
-	error := al.formatMessage(msg)
-	if error != nil {
+	al.formatMessage(msg)
 
-	}
 }
 
 func (al Alog) shutdown() {
